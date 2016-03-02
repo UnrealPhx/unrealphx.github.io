@@ -1,0 +1,12 @@
+# Site settings
+title: Phoenix Unreal Engine Developers
+email: contact@unrealphx.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "unrealphx.com" # the base hostname & protocol for your site
+
+twitter_username: "@UnrealPhx"
+github_username: "UnrealPhx"
+
+# Build settings
+markdown: kramdown
