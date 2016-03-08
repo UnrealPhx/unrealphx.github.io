@@ -154,7 +154,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
+    background-position: bottom;
     background-image: url('../img/header-unreal.jpg');
     text-align: center;
     color: white;
@@ -185,7 +185,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 30%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
