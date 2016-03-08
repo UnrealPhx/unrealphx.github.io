@@ -361,25 +361,15 @@ body {
 }
 
 // Embeded Map
-.maps iframe {
-    /*pointer-events: none;*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+.maps {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.maps-overlap {
-  position: relative;
-  z-index: 2;
-}
-
 // Next Meeting
 #meetup-link {
-  display: block;
-  margin-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
   text-decoration: none;
   &:hover {
     text-decoration: none;
