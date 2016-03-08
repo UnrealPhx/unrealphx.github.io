@@ -359,3 +359,34 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+// Embeded Map
+.maps iframe {
+    /*pointer-events: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.maps-overlap {
+  position: relative;
+  z-index: 2;
+}
+
+// Next Meeting
+#meetup-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+
+  h2 {
+    display: inline;
+    padding-left: 0.25em;
+  }
+}
