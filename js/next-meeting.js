@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  var meetupEventsUrl = "https://api.meetup.com/Phoenix-Unreal-Engine-Developers/events?scroll=next_upcoming&photo-host=public&page=1&sig_id=198889890&status=past%2Cupcoming&sig=fba37148ddce35c43bfcbed2979dbaa5804a5d9f";
+  var meetupEventsUrl = "https://api.meetup.com/Phoenix-Unreal-Engine-Developers/events?scroll=future_or_past&photo-host=public&page=1&sig_id=55074012&status=past%2Cupcoming&sig=b751e22a582e2309e5b03a0cd1a80466ef7e4fc3";
 
   function populateMap(data) {
     var API_KEY = 'AIzaSyCJZJPBFj_dGqWruxfkQFEEis8jTf0eVNE';
